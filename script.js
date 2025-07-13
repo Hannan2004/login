@@ -2,8 +2,8 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     e.preventDefault();
 
     // Example credentials
-    const validUsername = 'user123';
-    const validPassword = 'password123';
+    const validUsername = 'user';
+    const validPassword = 'password';
 
     const username = document.getElementById('username').value.trim();
     const password = document.getElementById('password').value;
